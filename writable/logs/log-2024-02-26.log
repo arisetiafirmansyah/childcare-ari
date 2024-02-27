@@ -1,0 +1,830 @@
+CRITICAL - 2024-02-26 00:14:43 --> Cannot redeclare App\Controllers\Home::edit_siswa()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-02-26 00:27:25 --> Undefined variable $data
+#0 C:\xampp\htdocs\tk\app\Controllers\Home.php(321): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 321)
+#1 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->tambah_orangtua()
+#2 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-26 00:27:38 --> Undefined variable $data
+#0 C:\xampp\htdocs\tk\app\Controllers\Home.php(321): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 321)
+#1 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->tambah_orangtua()
+#2 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-26 00:27:54 --> Undefined variable $data
+#0 C:\xampp\htdocs\tk\app\Controllers\Home.php(321): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 321)
+#1 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->tambah_orangtua()
+#2 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-26 00:31:01 --> Table 'dbtk.alamat' doesn't exist
+ERROR - 2024-02-26 00:31:01 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 00:32:12 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 00:32:25 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 00:32:27 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 01:25:41 --> Table 'dbtk.log' doesn't exist
+CRITICAL - 2024-02-26 01:25:55 --> Invalid file: edit_orangtua.php
+#0 C:\xampp\htdocs\tk\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_orangtua.p...')
+#1 C:\xampp\htdocs\tk\system\Common.php(1089): CodeIgniter\View\View->render('edit_orangtua', Array, true)
+#2 C:\xampp\htdocs\tk\app\Controllers\Home.php(402): view('edit_orangtua', Array)
+#3 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->edit_orangtua('7')
+#4 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-02-26 01:25:56 --> Invalid file: edit_orangtua.php
+#0 C:\xampp\htdocs\tk\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_orangtua.p...')
+#1 C:\xampp\htdocs\tk\system\Common.php(1089): CodeIgniter\View\View->render('edit_orangtua', Array, true)
+#2 C:\xampp\htdocs\tk\app\Controllers\Home.php(402): view('edit_orangtua', Array)
+#3 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->edit_orangtua('img', 'man.png')
+#4 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-02-26 01:25:56 --> Invalid file: edit_orangtua.php
+#0 C:\xampp\htdocs\tk\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_orangtua.p...')
+#1 C:\xampp\htdocs\tk\system\Common.php(1089): CodeIgniter\View\View->render('edit_orangtua', Array, true)
+#2 C:\xampp\htdocs\tk\app\Controllers\Home.php(402): view('edit_orangtua', Array)
+#3 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->edit_orangtua('img', 'girl.png')
+#4 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-02-26 01:29:48 --> Attempt to read property "id_user" on null
+#0 C:\xampp\htdocs\tk\app\Views\edit_siswa.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\tk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tk\system\Common.php(1089): CodeIgniter\View\View->render('edit_siswa', Array, true)
+#4 C:\xampp\htdocs\tk\app\Controllers\Home.php(233): view('edit_siswa', Array)
+#5 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->edit_siswa('img', 'man.png')
+#6 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-26 01:29:48 --> Attempt to read property "id_user" on null
+#0 C:\xampp\htdocs\tk\app\Views\edit_siswa.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\tk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tk\system\Common.php(1089): CodeIgniter\View\View->render('edit_siswa', Array, true)
+#4 C:\xampp\htdocs\tk\app\Controllers\Home.php(233): view('edit_siswa', Array)
+#5 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->edit_siswa('img', 'girl.png')
+#6 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-26 01:32:24 --> Undefined property: stdClass::$nis
+#0 C:\xampp\htdocs\tk\app\Views\edit_orangtua.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 61)
+#1 C:\xampp\htdocs\tk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tk\system\Common.php(1089): CodeIgniter\View\View->render('edit_orangtua', Array, true)
+#4 C:\xampp\htdocs\tk\app\Controllers\Home.php(402): view('edit_orangtua', Array)
+#5 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->edit_orangtua('7')
+#6 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-26 01:32:24 --> Attempt to read property "id_user" on null
+#0 C:\xampp\htdocs\tk\app\Views\edit_orangtua.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\tk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tk\system\Common.php(1089): CodeIgniter\View\View->render('edit_orangtua', Array, true)
+#4 C:\xampp\htdocs\tk\app\Controllers\Home.php(402): view('edit_orangtua', Array)
+#5 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->edit_orangtua('img', 'man.png')
+#6 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-26 01:32:24 --> Attempt to read property "id_user" on null
+#0 C:\xampp\htdocs\tk\app\Views\edit_orangtua.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\tk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tk\system\Common.php(1089): CodeIgniter\View\View->render('edit_orangtua', Array, true)
+#4 C:\xampp\htdocs\tk\app\Controllers\Home.php(402): view('edit_orangtua', Array)
+#5 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->edit_orangtua('img', 'girl.png')
+#6 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-26 01:33:03 --> Attempt to read property "id_user" on null
+#0 C:\xampp\htdocs\tk\app\Views\edit_orangtua.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\tk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tk\system\Common.php(1089): CodeIgniter\View\View->render('edit_orangtua', Array, true)
+#4 C:\xampp\htdocs\tk\app\Controllers\Home.php(402): view('edit_orangtua', Array)
+#5 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->edit_orangtua('img', 'man.png')
+#6 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-26 01:33:03 --> Attempt to read property "id_user" on null
+#0 C:\xampp\htdocs\tk\app\Views\edit_orangtua.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\tk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tk\system\Common.php(1089): CodeIgniter\View\View->render('edit_orangtua', Array, true)
+#4 C:\xampp\htdocs\tk\app\Controllers\Home.php(402): view('edit_orangtua', Array)
+#5 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->edit_orangtua('img', 'girl.png')
+#6 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-26 01:33:44 --> Attempt to read property "id_user" on null
+#0 C:\xampp\htdocs\tk\app\Views\edit_orangtua.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\tk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tk\system\Common.php(1089): CodeIgniter\View\View->render('edit_orangtua', Array, true)
+#4 C:\xampp\htdocs\tk\app\Controllers\Home.php(402): view('edit_orangtua', Array)
+#5 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->edit_orangtua('img', 'man.png')
+#6 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-26 01:33:45 --> Attempt to read property "id_user" on null
+#0 C:\xampp\htdocs\tk\app\Views\edit_orangtua.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\tk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tk\system\Common.php(1089): CodeIgniter\View\View->render('edit_orangtua', Array, true)
+#4 C:\xampp\htdocs\tk\app\Controllers\Home.php(402): view('edit_orangtua', Array)
+#5 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->edit_orangtua('img', 'girl.png')
+#6 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-26 01:35:28 --> Attempt to read property "id_user" on null
+#0 C:\xampp\htdocs\tk\app\Views\edit_orangtua.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\tk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tk\system\Common.php(1089): CodeIgniter\View\View->render('edit_orangtua', Array, true)
+#4 C:\xampp\htdocs\tk\app\Controllers\Home.php(402): view('edit_orangtua', Array)
+#5 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->edit_orangtua('img', 'man.png')
+#6 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-26 01:35:28 --> Attempt to read property "id_user" on null
+#0 C:\xampp\htdocs\tk\app\Views\edit_orangtua.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\tk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tk\system\Common.php(1089): CodeIgniter\View\View->render('edit_orangtua', Array, true)
+#4 C:\xampp\htdocs\tk\app\Controllers\Home.php(402): view('edit_orangtua', Array)
+#5 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->edit_orangtua('img', 'girl.png')
+#6 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-26 01:35:51 --> Attempt to read property "id_user" on null
+#0 C:\xampp\htdocs\tk\app\Views\edit_orangtua.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\tk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tk\system\Common.php(1089): CodeIgniter\View\View->render('edit_orangtua', Array, true)
+#4 C:\xampp\htdocs\tk\app\Controllers\Home.php(402): view('edit_orangtua', Array)
+#5 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->edit_orangtua('img', 'man.png')
+#6 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-26 01:35:51 --> Attempt to read property "id_user" on null
+#0 C:\xampp\htdocs\tk\app\Views\edit_orangtua.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\tk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tk\system\Common.php(1089): CodeIgniter\View\View->render('edit_orangtua', Array, true)
+#4 C:\xampp\htdocs\tk\app\Controllers\Home.php(402): view('edit_orangtua', Array)
+#5 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->edit_orangtua('img', 'girl.png')
+#6 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-26 01:36:12 --> Attempt to read property "id_user" on null
+#0 C:\xampp\htdocs\tk\app\Views\edit_orangtua.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\tk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tk\system\Common.php(1089): CodeIgniter\View\View->render('edit_orangtua', Array, true)
+#4 C:\xampp\htdocs\tk\app\Controllers\Home.php(402): view('edit_orangtua', Array)
+#5 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->edit_orangtua('img', 'man.png')
+#6 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-26 01:36:12 --> Attempt to read property "id_user" on null
+#0 C:\xampp\htdocs\tk\app\Views\edit_orangtua.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\tk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tk\system\Common.php(1089): CodeIgniter\View\View->render('edit_orangtua', Array, true)
+#4 C:\xampp\htdocs\tk\app\Controllers\Home.php(402): view('edit_orangtua', Array)
+#5 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->edit_orangtua('img', 'girl.png')
+#6 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-26 01:37:10 --> Attempt to read property "id_user" on null
+#0 C:\xampp\htdocs\tk\app\Views\edit_orangtua.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\tk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tk\system\Common.php(1089): CodeIgniter\View\View->render('edit_orangtua', Array, true)
+#4 C:\xampp\htdocs\tk\app\Controllers\Home.php(402): view('edit_orangtua', Array)
+#5 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->edit_orangtua('img', 'man.png')
+#6 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-26 01:37:10 --> Attempt to read property "id_user" on null
+#0 C:\xampp\htdocs\tk\app\Views\edit_orangtua.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\tk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tk\system\Common.php(1089): CodeIgniter\View\View->render('edit_orangtua', Array, true)
+#4 C:\xampp\htdocs\tk\app\Controllers\Home.php(402): view('edit_orangtua', Array)
+#5 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->edit_orangtua('img', 'girl.png')
+#6 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-26 01:37:30 --> Attempt to read property "id_user" on null
+#0 C:\xampp\htdocs\tk\app\Views\edit_orangtua.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\tk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tk\system\Common.php(1089): CodeIgniter\View\View->render('edit_orangtua', Array, true)
+#4 C:\xampp\htdocs\tk\app\Controllers\Home.php(402): view('edit_orangtua', Array)
+#5 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->edit_orangtua('img', 'man.png')
+#6 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-26 01:37:30 --> Attempt to read property "id_user" on null
+#0 C:\xampp\htdocs\tk\app\Views\edit_orangtua.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\tk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tk\system\Common.php(1089): CodeIgniter\View\View->render('edit_orangtua', Array, true)
+#4 C:\xampp\htdocs\tk\app\Controllers\Home.php(402): view('edit_orangtua', Array)
+#5 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->edit_orangtua('img', 'girl.png')
+#6 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-26 01:38:45 --> Attempt to read property "id_user" on null
+#0 C:\xampp\htdocs\tk\app\Views\edit_orangtua.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\tk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tk\system\Common.php(1089): CodeIgniter\View\View->render('edit_orangtua', Array, true)
+#4 C:\xampp\htdocs\tk\app\Controllers\Home.php(402): view('edit_orangtua', Array)
+#5 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->edit_orangtua('img', 'man.png')
+#6 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-26 01:38:45 --> Attempt to read property "id_user" on null
+#0 C:\xampp\htdocs\tk\app\Views\edit_orangtua.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\tk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tk\system\Common.php(1089): CodeIgniter\View\View->render('edit_orangtua', Array, true)
+#4 C:\xampp\htdocs\tk\app\Controllers\Home.php(402): view('edit_orangtua', Array)
+#5 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->edit_orangtua('img', 'girl.png')
+#6 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2024-02-26 01:39:39 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 01:39:40 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 01:41:35 --> Table 'dbtk.log' doesn't exist
+CRITICAL - 2024-02-26 01:42:08 --> Attempt to read property "id_user" on null
+#0 C:\xampp\htdocs\tk\app\Views\edit_siswa.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\tk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tk\system\Common.php(1089): CodeIgniter\View\View->render('edit_siswa', Array, true)
+#4 C:\xampp\htdocs\tk\app\Controllers\Home.php(233): view('edit_siswa', Array)
+#5 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->edit_siswa('img', 'man.png')
+#6 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-26 01:42:08 --> Attempt to read property "id_user" on null
+#0 C:\xampp\htdocs\tk\app\Views\edit_siswa.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\tk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tk\system\Common.php(1089): CodeIgniter\View\View->render('edit_siswa', Array, true)
+#4 C:\xampp\htdocs\tk\app\Controllers\Home.php(233): view('edit_siswa', Array)
+#5 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->edit_siswa('img', 'girl.png')
+#6 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2024-02-26 01:42:37 --> Table 'dbtk.log' doesn't exist
+CRITICAL - 2024-02-26 01:46:34 --> Attempt to read property "id_user" on null
+#0 C:\xampp\htdocs\tk\app\Views\edit_siswa.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\tk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tk\system\Common.php(1089): CodeIgniter\View\View->render('edit_siswa', Array, true)
+#4 C:\xampp\htdocs\tk\app\Controllers\Home.php(233): view('edit_siswa', Array)
+#5 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->edit_siswa('img', 'man.png')
+#6 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-26 01:46:34 --> Attempt to read property "id_user" on null
+#0 C:\xampp\htdocs\tk\app\Views\edit_siswa.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\tk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tk\system\Common.php(1089): CodeIgniter\View\View->render('edit_siswa', Array, true)
+#4 C:\xampp\htdocs\tk\app\Controllers\Home.php(233): view('edit_siswa', Array)
+#5 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->edit_siswa('img', 'girl.png')
+#6 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2024-02-26 01:47:23 --> Table 'dbtk.log' doesn't exist
+CRITICAL - 2024-02-26 01:47:32 --> Attempt to read property "id_user" on null
+#0 C:\xampp\htdocs\tk\app\Views\edit_orangtua.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\tk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tk\system\Common.php(1089): CodeIgniter\View\View->render('edit_orangtua', Array, true)
+#4 C:\xampp\htdocs\tk\app\Controllers\Home.php(402): view('edit_orangtua', Array)
+#5 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->edit_orangtua('img', 'man.png')
+#6 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-26 01:47:32 --> Attempt to read property "id_user" on null
+#0 C:\xampp\htdocs\tk\app\Views\edit_orangtua.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\tk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tk\system\Common.php(1089): CodeIgniter\View\View->render('edit_orangtua', Array, true)
+#4 C:\xampp\htdocs\tk\app\Controllers\Home.php(402): view('edit_orangtua', Array)
+#5 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->edit_orangtua('img', 'girl.png')
+#6 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2024-02-26 01:49:19 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 01:49:39 --> Table 'dbtk.log' doesn't exist
+CRITICAL - 2024-02-26 07:48:39 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\tk\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/user')
+#1 C:\xampp\htdocs\tk\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/user')
+#2 C:\xampp\htdocs\tk\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-26 07:49:21 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 07:55:06 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 07:55:09 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 07:55:17 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 07:55:18 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 07:55:24 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 07:55:25 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 07:55:29 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 07:55:30 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 07:55:42 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 07:55:48 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 07:55:48 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 07:55:50 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 07:55:50 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 07:56:03 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 07:57:59 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 07:59:23 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 08:00:12 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 08:01:15 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 08:01:35 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 08:02:33 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 08:02:53 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 08:02:55 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 08:02:55 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 08:03:34 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 08:03:46 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 08:03:46 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 08:08:24 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 08:08:24 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 08:09:40 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 08:09:50 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 08:10:41 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 08:25:40 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 08:25:40 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 08:27:53 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 08:53:33 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 08:56:33 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 08:56:55 --> Column 'nama' cannot be null
+ERROR - 2024-02-26 08:56:55 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 08:56:55 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 08:57:53 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 08:57:53 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 09:01:28 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 09:02:05 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 09:02:06 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 09:02:13 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 09:02:13 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 09:17:35 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 09:17:49 --> Unknown column 'history.tanggal' in 'where clause'
+CRITICAL - 2024-02-26 09:17:49 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\tk\app\Controllers\Home.php(931): App\Models\M_model->filter2('pembayaran', '2024-01-28', '2024-03-09')
+#1 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->cari_b()
+#2 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-26 09:18:32 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\tk\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\tk\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_mo...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_mo...')
+#3 C:\xampp\htdocs\tk\app\Controllers\Home.php(928): spl_autoload_call('App\\Models\\M_mo...')
+#4 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->cari_b()
+#5 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2024-02-26 09:18:46 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\tk\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\tk\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_mo...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_mo...')
+#3 C:\xampp\htdocs\tk\app\Controllers\Home.php(928): spl_autoload_call('App\\Models\\M_mo...')
+#4 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->cari_b()
+#5 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2024-02-26 09:18:57 --> Unknown column 'history.tanggal' in 'where clause'
+CRITICAL - 2024-02-26 09:18:57 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\tk\app\Controllers\Home.php(931): App\Models\M_model->filter2('pembayaran', '2024-01-28', '2024-03-09')
+#1 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->cari_b()
+#2 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-26 09:21:04 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 09:21:12 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 09:38:08 --> Unknown column 'pembayaran.nama_siswa' in 'on clause'
+CRITICAL - 2024-02-26 09:38:08 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\tk\app\Controllers\Home.php(931): App\Models\M_model->filter2('pembayaran', '2024-02-19', '2024-03-05')
+#1 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->cari_b()
+#2 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-26 09:40:55 --> Unknown column 'pembayaran.nama_siswa' in 'on clause'
+CRITICAL - 2024-02-26 09:40:55 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\tk\app\Controllers\Home.php(931): App\Models\M_model->filter2('pembayaran', '2024-01-30', '2024-03-02')
+#1 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->cari_b()
+#2 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-26 18:33:36 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 18:33:42 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 18:33:54 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 18:33:58 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 18:34:03 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 18:34:03 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 20:19:48 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 20:19:56 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 20:20:18 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 20:20:19 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 20:20:21 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 20:20:22 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 20:20:28 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 20:20:35 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 20:20:52 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 20:20:52 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 20:20:57 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 20:20:57 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 20:21:42 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 20:21:42 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 20:21:55 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 20:21:55 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 20:23:19 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 20:23:42 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 20:23:42 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 20:23:49 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 20:23:50 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 20:25:12 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 20:25:26 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 20:26:41 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 20:55:21 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 20:57:27 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 21:00:20 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 21:00:25 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 21:00:25 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 21:00:42 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 21:00:42 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 21:00:49 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 21:00:49 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 21:04:51 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 21:06:16 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 21:06:17 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-26 22:29:45 --> Table 'dbtk.user' doesn't exist in engine
+CRITICAL - 2024-02-26 22:29:45 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\tk\app\Controllers\Home.php(48): App\Models\M_model->getWhere2('user', Array)
+#1 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#2 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-26 22:39:41 --> Table 'dbtk.user' doesn't exist in engine
+CRITICAL - 2024-02-26 22:39:41 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\tk\app\Controllers\Home.php(48): App\Models\M_model->getWhere2('user', Array)
+#1 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#2 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-26 22:40:25 --> Table 'dbtk.user' doesn't exist in engine
+CRITICAL - 2024-02-26 22:40:25 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\tk\app\Controllers\Home.php(48): App\Models\M_model->getWhere2('user', Array)
+#1 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#2 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-02-26 23:05:35 --> Table 'dbtkk.log' doesn't exist
+CRITICAL - 2024-02-26 23:05:43 --> Undefined variable $id
+#0 C:\xampp\htdocs\tk\app\Controllers\Home.php(780): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 780)
+#1 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->pembayaran()
+#2 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-26 23:05:57 --> Undefined variable $id
+#0 C:\xampp\htdocs\tk\app\Controllers\Home.php(463): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 463)
+#1 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->bayar()
+#2 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-26 23:06:02 --> Undefined variable $id
+#0 C:\xampp\htdocs\tk\app\Controllers\Home.php(780): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 780)
+#1 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->pembayaran()
+#2 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-26 23:06:30 --> Attempt to read property "id_user" on null
+#0 C:\xampp\htdocs\tk\app\Views\edit_siswa.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\tk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tk\system\Common.php(1089): CodeIgniter\View\View->render('edit_siswa', Array, true)
+#4 C:\xampp\htdocs\tk\app\Controllers\Home.php(233): view('edit_siswa', Array)
+#5 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->edit_siswa('img', 'man.png')
+#6 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-26 23:06:30 --> Attempt to read property "id_user" on null
+#0 C:\xampp\htdocs\tk\app\Views\edit_siswa.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\tk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tk\system\Common.php(1089): CodeIgniter\View\View->render('edit_siswa', Array, true)
+#4 C:\xampp\htdocs\tk\app\Controllers\Home.php(233): view('edit_siswa', Array)
+#5 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->edit_siswa('img', 'girl.png')
+#6 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-26 23:07:24 --> Undefined variable $id
+#0 C:\xampp\htdocs\tk\app\Controllers\Home.php(463): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 463)
+#1 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->bayar()
+#2 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-26 23:08:10 --> Undefined variable $id
+#0 C:\xampp\htdocs\tk\app\Controllers\Home.php(463): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 463)
+#1 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->bayar()
+#2 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-26 23:08:20 --> Undefined variable $id
+#0 C:\xampp\htdocs\tk\app\Controllers\Home.php(463): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 463)
+#1 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->bayar()
+#2 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-26 23:08:21 --> Undefined property: stdClass::$id_guru
+#0 C:\xampp\htdocs\tk\app\Views\ta.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 73)
+#1 C:\xampp\htdocs\tk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tk\system\Common.php(1089): CodeIgniter\View\View->render('ta', Array, true)
+#4 C:\xampp\htdocs\tk\app\Controllers\Home.php(647): view('ta', Array)
+#5 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->ta()
+#6 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-26 23:08:30 --> Undefined variable $id
+#0 C:\xampp\htdocs\tk\app\Controllers\Home.php(463): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 463)
+#1 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->bayar()
+#2 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-26 23:08:38 --> Undefined property: stdClass::$id_guru
+#0 C:\xampp\htdocs\tk\app\Views\ta.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 73)
+#1 C:\xampp\htdocs\tk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tk\system\Common.php(1089): CodeIgniter\View\View->render('ta', Array, true)
+#4 C:\xampp\htdocs\tk\app\Controllers\Home.php(647): view('ta', Array)
+#5 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->ta()
+#6 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-26 23:09:07 --> Undefined variable $id
+#0 C:\xampp\htdocs\tk\app\Controllers\Home.php(651): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 651)
+#1 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->ta()
+#2 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-26 23:09:57 --> Undefined variable $id
+#0 C:\xampp\htdocs\tk\app\Controllers\Home.php(651): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 651)
+#1 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->ta()
+#2 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-26 23:11:08 --> syntax error, unexpected double-quoted string "", expecting ")"
+#0 C:\xampp\htdocs\tk\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/ta')
+#1 C:\xampp\htdocs\tk\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/ta')
+#2 C:\xampp\htdocs\tk\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-26 23:11:29 --> Undefined variable $id
+#0 C:\xampp\htdocs\tk\app\Controllers\Home.php(463): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 463)
+#1 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->bayar()
+#2 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-26 23:14:03 --> Unclosed '{' on line 152
+#0 C:\xampp\htdocs\tk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\tk\system\Common.php(1089): CodeIgniter\View\View->render('bayar', Array, true)
+#2 C:\xampp\htdocs\tk\app\Controllers\Home.php(459): view('bayar', Array)
+#3 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->bayar()
+#4 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2024-02-26 23:14:27 --> Undefined variable $id
+#0 C:\xampp\htdocs\tk\app\Controllers\Home.php(463): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 463)
+#1 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->bayar()
+#2 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-26 23:14:53 --> Undefined variable $id
+#0 C:\xampp\htdocs\tk\app\Controllers\Home.php(463): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 463)
+#1 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->bayar()
+#2 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-26 23:15:44 --> Undefined variable $id
+#0 C:\xampp\htdocs\tk\app\Controllers\Home.php(463): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 463)
+#1 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->bayar()
+#2 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-26 23:15:45 --> Undefined variable $id
+#0 C:\xampp\htdocs\tk\app\Controllers\Home.php(463): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 463)
+#1 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->bayar()
+#2 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-26 23:17:07 --> Undefined variable $id
+#0 C:\xampp\htdocs\tk\app\Controllers\Home.php(463): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 463)
+#1 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->bayar()
+#2 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-26 23:17:49 --> Undefined variable $id
+#0 C:\xampp\htdocs\tk\app\Controllers\Home.php(463): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 463)
+#1 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->bayar()
+#2 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-26 23:17:54 --> Undefined variable $id
+#0 C:\xampp\htdocs\tk\app\Controllers\Home.php(778): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 778)
+#1 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->pembayaran()
+#2 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-26 23:20:39 --> Undefined variable $id
+#0 C:\xampp\htdocs\tk\app\Controllers\Home.php(778): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 778)
+#1 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->pembayaran()
+#2 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-26 23:21:27 --> Undefined variable $id
+#0 C:\xampp\htdocs\tk\app\Controllers\Home.php(778): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 778)
+#1 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->pembayaran()
+#2 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-26 23:22:37 --> Undefined variable $id
+#0 C:\xampp\htdocs\tk\app\Controllers\Home.php(778): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 778)
+#1 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->pembayaran()
+#2 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-26 23:24:28 --> Undefined variable $id
+#0 C:\xampp\htdocs\tk\app\Controllers\Home.php(778): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 778)
+#1 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->pembayaran()
+#2 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-26 23:25:32 --> Undefined variable $id
+#0 C:\xampp\htdocs\tk\app\Controllers\Home.php(778): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 778)
+#1 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->pembayaran()
+#2 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-26 23:25:32 --> Undefined variable $id
+#0 C:\xampp\htdocs\tk\app\Controllers\Home.php(778): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 778)
+#1 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->pembayaran()
+#2 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

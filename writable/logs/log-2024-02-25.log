@@ -1,0 +1,110 @@
+ERROR - 2024-02-25 23:02:49 --> Table 'dbtk.penguna' doesn't exist
+CRITICAL - 2024-02-25 23:02:49 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\tk\app\Controllers\Home.php(123): App\Models\M_model->join2('penguna', 'user', 'penguna.user=us...')
+#1 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->penguna()
+#2 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-02-25 23:21:12 --> Undefined variable $jojo
+#0 C:\xampp\htdocs\tk\app\Views\tambah_siswa.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76)
+#1 C:\xampp\htdocs\tk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tk\system\Common.php(1089): CodeIgniter\View\View->render('tambah_siswa', Array, true)
+#4 C:\xampp\htdocs\tk\app\Controllers\Home.php(161): view('tambah_siswa', Array)
+#5 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->tambah_siswa()
+#6 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2024-02-25 23:22:50 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-25 23:23:15 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-25 23:24:16 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-25 23:24:59 --> Table 'dbtk.log' doesn't exist
+ERROR - 2024-02-25 23:42:35 --> Table 'dbtk.log' doesn't exist
+CRITICAL - 2024-02-25 23:42:54 --> Undefined property: stdClass::$level
+#0 C:\xampp\htdocs\tk\app\Views\edit_siswa.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\tk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tk\system\Common.php(1089): CodeIgniter\View\View->render('edit_siswa', Array, true)
+#4 C:\xampp\htdocs\tk\app\Controllers\Home.php(233): view('edit_siswa', Array)
+#5 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->edit_siswa('4')
+#6 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-25 23:42:54 --> Attempt to read property "id_user" on null
+#0 C:\xampp\htdocs\tk\app\Views\edit_siswa.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\tk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tk\system\Common.php(1089): CodeIgniter\View\View->render('edit_siswa', Array, true)
+#4 C:\xampp\htdocs\tk\app\Controllers\Home.php(233): view('edit_siswa', Array)
+#5 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->edit_siswa('img', 'man.png')
+#6 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-25 23:42:54 --> Attempt to read property "id_user" on null
+#0 C:\xampp\htdocs\tk\app\Views\edit_siswa.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\tk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tk\system\Common.php(1089): CodeIgniter\View\View->render('edit_siswa', Array, true)
+#4 C:\xampp\htdocs\tk\app\Controllers\Home.php(233): view('edit_siswa', Array)
+#5 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->edit_siswa('img', 'girl.png')
+#6 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-25 23:43:15 --> Attempt to read property "id_user" on null
+#0 C:\xampp\htdocs\tk\app\Views\edit_siswa.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\tk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tk\system\Common.php(1089): CodeIgniter\View\View->render('edit_siswa', Array, true)
+#4 C:\xampp\htdocs\tk\app\Controllers\Home.php(233): view('edit_siswa', Array)
+#5 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->edit_siswa('img', 'man.png')
+#6 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-25 23:43:15 --> Attempt to read property "id_user" on null
+#0 C:\xampp\htdocs\tk\app\Views\edit_siswa.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\tk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tk\system\Common.php(1089): CodeIgniter\View\View->render('edit_siswa', Array, true)
+#4 C:\xampp\htdocs\tk\app\Controllers\Home.php(233): view('edit_siswa', Array)
+#5 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->edit_siswa('img', 'girl.png')
+#6 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-25 23:44:30 --> Attempt to read property "id_user" on null
+#0 C:\xampp\htdocs\tk\app\Views\edit_siswa.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\tk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tk\system\Common.php(1089): CodeIgniter\View\View->render('edit_siswa', Array, true)
+#4 C:\xampp\htdocs\tk\app\Controllers\Home.php(233): view('edit_siswa', Array)
+#5 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->edit_siswa('img', 'man.png')
+#6 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-02-25 23:44:30 --> Attempt to read property "id_user" on null
+#0 C:\xampp\htdocs\tk\app\Views\edit_siswa.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\tk\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tk\system\Common.php(1089): CodeIgniter\View\View->render('edit_siswa', Array, true)
+#4 C:\xampp\htdocs\tk\app\Controllers\Home.php(233): view('edit_siswa', Array)
+#5 C:\xampp\htdocs\tk\system\CodeIgniter.php(832): App\Controllers\Home->edit_siswa('img', 'girl.png')
+#6 C:\xampp\htdocs\tk\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tk\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tk\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
